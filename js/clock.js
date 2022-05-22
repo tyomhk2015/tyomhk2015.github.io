@@ -69,25 +69,25 @@ const getDateName = (mode, value) => {
     case 'day' :
       switch(value) {
         case 0:
-          dateName = "Mon";
+          dateName = "Sun";
         break;
         case 1:
-          dateName = "Tue";
+          dateName = "Mon";
         break;
         case 2:
-          dateName = "Wed";
+          dateName = "Tue";
         break;
         case 3:
-          dateName = "Thu";
+          dateName = "Wed";
         break;
         case 4:
-          dateName = "Fri";
+          dateName = "Thu";
         break;
         case 5:
-          dateName = "Sat";
+          dateName = "Fri";
         break;
         case 6:
-          dateName = "Sun";
+          dateName = "Sat";
         break;
       }
     break;
