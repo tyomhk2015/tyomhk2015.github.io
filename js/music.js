@@ -63,7 +63,7 @@ const trackMusicTime = () => {
   let progress;
   musicTracker = setInterval(()=> {
     progress = currentAudio.currentTime / currentAudio.duration;
-    console.log(progress);
+
     if (progress >= 0.95 && currentAudio.volume > 0.03) {
       currentAudio.volume -= 0.03;
     }
