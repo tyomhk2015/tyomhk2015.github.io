@@ -79,6 +79,10 @@ const greetUser = () => {
   welcomeMsg.innerText = USER_ID;
 }
 
+const resetGreeting = () => {
+  welcomeMsg.innerText = "";
+}
+
 const logout = () => {
   localStorage.removeItem(KEY);
   toggleLogoutTab('logout');
@@ -88,6 +92,7 @@ const logout = () => {
   resetImage();
   resetTodo();
   stopMusic();
+  resetGreeting();
 }
 
 const login = (e) => {
