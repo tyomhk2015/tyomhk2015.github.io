@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nier Automata styled page with basic JS features."/>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>YORHA</title>
+  </head>
+
+  <body>
+    <div class="wrapper js-wrapper">
+      <header>
+        <h1></a><img class="logo" src="./image/logo.png" alt="YORHA logo">YORHA</h1>
+        <nav>
+          <ul class="navigation-ul js-navigation-ul">
+            <li id="home" class="option active js-sound-cursor js-tab"><p class="option-text">HOME</p></li>
+            <li id="todo" class="option js-sound-cursor js-tab"><p class="option-text">TO DO</p></li>
+            <li id="gallery" class="option js-sound-cursor js-tab"><p class="option-text">GALLERY</p></li>
+            <li id="logout" class="option logout inactive js-sound-cursor js-logout"><p class="option-text">LOGOUT</p></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="content-wrapper js-content-wrapper">
+          <section class="home js-home js-content active">
+            <h2>HOME</h3>
+            <div class="profile-wrapper">
+              <p>突如侵略してきた異星人。<br>そして、彼らが繰り出す兵器「機械生命体」。圧倒的戦力の前に、<br>人類は地上を追われ月へと逃げ延びていた。</p>
+            </div>
+            <div class="welcome-wrapper menu-body">
+              <h3 class="welcome-message">Welcome</h3>
+              <p class="welcome-user js-welcome-user"></p>
+            </div>
+          </section>
+          <section class="todo js-todo js-content">
+            <h2>TODO</h3>
+            <div class="todo-wrapper">
+              <div class="todo-display menu">
+                <div class="menu-head">TASK</div>
+                <div class="menu-body scroll-bar left-border dim">
+                  <ul class="todo-lists js-todo-lists left-border dim"></ul>
+                </div>
+              </div>
+              <form class="todo-form menu js-todo-form">
+                <div class="menu-head">REGISTER</div>
+                <div class="menu-body">
+                  <div class="todo-input-wrapper">
+                    <p class="todo-guide">Enter your task</p>
+                    <input type="text" class="text-input todo-input js-todo-input" />
+                  </div>
+                  <button class="button todo-button js-sound-cursor js-todo-submit">Enter</button>
+                </div>
+              </form>
+            </div>
+          </section>
+          <section class="gallery js-gallery js-content">
+            <h2>GALLERY</h3>
+            <div class="gallery-container">
+              <img src="/image/bg/5.jpg" class="gallery-content js-gallery-content" alt="Nier Automata Concept Art"/>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p class="weather-container js-weather"></p>
+        <div class="clock-wrapper js-clock-wrapper">
+          <div class="cursor-wrapper">
+            <div class="cursor"></div>
+          </div>
+          <p class="clock js-clock">00:00:00</p>
+        </div>
+      </footer>
+    </div>
+    <div class="login-modal js-login-modal">
+      <div class="menu login-wrapper">
+        <div class="menu-head">YORHA AUTHENTICATOR</div>
+        <div class="menu-body">
+          <div class="login-container left-border dim">
+            <h2>LOGIN</h2>
+            <form class="login-form js-login-form">
+              <dl>
+                <dt><h3>ID</h3></dt>
+                <dd>
+                  <div class="cursor-wrapper">
+                    <div class="cursor"></div>
+                  </div>
+                  <input type="text" class="text-input login-id js-login-id"/>
+                </dd>
+                <dt><h3>PASSWORD</h3></dt>
+                <dd>
+                  <div class="cursor-wrapper">
+                    <div class="cursor"></div>
+                  </div>
+                  <input type="text" class="text-input login-password js-login-password"/>
+                </dd>
+              </dl>
+              <div class="login-button-wrapper">
+                <div class="cursor-wrapper">
+                  <div class="cursor"></div>
+                </div>
+                <button type="submit" class="button js-sound-cursor">LOGIN</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hide-ui-wrapper">
+      <button class="button hide-ui-button js-hide-ui-button js-sound-cursor">Hide UI</button>
+    </div>
+    <div class="music-wrapper js-music-wrapper">
+      <div class="music-player js-music-player">
+        <div class="previous js-music-shifter">
+          <div class="cursor-wrapper">
+            <div class="cursor"></div>
+          </div>
+        </div>
+        <p class="music-title js-music-title">Music Title</p>
+        <div class="spinner js-music-status inactive">
+          <div class="spinner-middle">
+            <div class="spinner-inner"></div>
+          </div>
+        </div>
+        <div class="next js-music-shifter">
+          <div class="cursor-wrapper">
+            <div class="cursor"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="big-logo js-big-logo hidden"></div>
+    <script src="/js/weather.js"></script>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/clock.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/ui.js"></script>
+    <script src="/js/todo.js"></script>
+    <script src="/js/sound.js"></script>
+    <script src="/js/music.js"></script>
+  </body>
+</html>
