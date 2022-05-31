@@ -4,13 +4,13 @@ Collections of my works deployed with github page.
 
 ### HTML/CSS/JS
 
-URL: https://tyomhk2015.github.io/nier_prop/
+URL: <a href="https://tyomhk2015.github.io/nier_prop/">https://tyomhk2015.github.io/nier_prop/</a>
 
 ### CSS Only
 
 
 ### Websocket / WebRTC
 
-URL: https://ihdi3.sse.codesandbox.io/<br>
-Repository: https://github.com/tyomhk2015/e_card_rtc
+URL: <a href="https://ihdi3.sse.codesandbox.io/">https://ihdi3.sse.codesandbox.io/</a><br>
+Repository: <a href="https://github.com/tyomhk2015/e_card_rtc">https://github.com/tyomhk2015/e_card_rtc</a>
 
