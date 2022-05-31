@@ -1,6 +1,6 @@
 # Works
 
-Collections of my works deployed with github page.
+Collections of my works.
 
 ### HTML/CSS/JS
 
