@@ -18,7 +18,7 @@ const galleryImg = document.querySelector(".js-gallery-content");
 
 const paintImage = () => {
   const ranNum = Math.floor(Math.random() * BG_IMAGES.length) + 1;
-  document.body.style.backgroundImage = `url(..${BG_IMAGES_PATH + ranNum + BG_IMAGES_EXTENSION})`;
+  document.body.style.backgroundImage = `url(./${BG_IMAGES_PATH + ranNum + BG_IMAGES_EXTENSION})`;
   document.body.style.backgroundSize = CUSTOM_IMAGE_SETTING.size;
   document.body.style.backgroundRepeat = CUSTOM_IMAGE_SETTING.repeat;
 }
