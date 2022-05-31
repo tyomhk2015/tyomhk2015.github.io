@@ -8,13 +8,13 @@ const toggleSoundState = (state) => {
 
 const playCursorSound = (e) => {
   if(!e.target.classList.contains("js-sound-cursor") || e.target.classList.contains("selected") || soundState.cursorHover) return;
-  var audio = new Audio('./nier_prop/sound/cursor.mp3');
+  var audio = new Audio('./sound/cursor.mp3');
   audio.play();
   toggleSoundState(true);
 }
 
 const playMenuOpenSound = (e) => {
-  var audio = new Audio('./nier_prop/sound/openMenu.mp3');
+  var audio = new Audio('./sound/openMenu.mp3');
   audio.volume = 0.4;
   audio.play();
 }
