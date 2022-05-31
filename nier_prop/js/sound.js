@@ -20,13 +20,13 @@ const playMenuOpenSound = (e) => {
 }
 
 const playAlarmSound = (e) => {
-  var audio = new Audio('./nier_prop/sound/alarm.mp3');
+  var audio = new Audio('./sound/alarm.mp3');
   audio.volume = 0.4;
   audio.play();
 }
 
 const playCancelSound = (e) => {
-  var audio = new Audio('./nier_prop/sound/cancel.mp3');
+  var audio = new Audio('./sound/cancel.mp3');
   audio.volume = 0.8;
   audio.play();
 }

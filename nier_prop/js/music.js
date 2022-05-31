@@ -1,26 +1,26 @@
 const MUSIC = [
   {
-    file: "./nier_prop/music/1.mp3",
+    file: "./music/1.mp3",
     title: "Grandma (Destruction)"
   },
   {
-    file: "./nier_prop/music/2.mp3",
+    file: "./music/2.mp3",
     title: "A Beautiful Song"
   },
   {
-    file: "./nier_prop/music/3.mp3",
+    file: "./music/3.mp3",
     title: "Emil (Despair)"
   },
   {
-    file: "./nier_prop/music/4.mp3",
+    file: "./music/4.mp3",
     title: "Vague Hope - Cold Rain"
   },
   {
-    file: "./nier_prop/music/5.mp3",
+    file: "./music/5.mp3",
     title: "Emil (Sacrifice)"
   },
   {
-    file: "./nier_prop/music/6.mp3",
+    file: "./music/6.mp3",
     title: "Blissful Death"
   }
   ];
