@@ -1,6 +1,6 @@
 # Works
 
-Collections of my works.
+A collection of my works.
 
 ### HTML/CSS/JS
 
