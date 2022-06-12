@@ -8,9 +8,9 @@ A collection of my works and participated projects.
 ホットペッパービューティー<br>
 美容院・美容室・ヘアサロンが探せる日本最大級の検索・予約サイト
 
-* https://beauty.hotpepper.jp/
-* https://salonboard.com/
-* https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html
+* <a href="https://beauty.hotpepper.jp/">https://beauty.hotpepper.jp/</a>
+* <a href="https://salonboard.com/">https://salonboard.com/</a>
+* <a href="https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html">https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html</a>
 
 
 ### H___ Co. ltd.
