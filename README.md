@@ -5,7 +5,8 @@ A collection of my works and participated projects.
 ## Real
 ### Recruit Co. ltd.
 
-ホットペッパービューティー<br>
+#### 🏁 ホットペッパービューティー
+
 美容院・美容室・ヘアサロンが探せる日本最大級の検索・予約サイト
 
 2019/06 〜 2021/10
@@ -15,7 +16,7 @@ A collection of my works and participated projects.
 * <a href="https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html">https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html</a>
 
 
-保険チャンネル<br>
+#### 🏁 保険チャンネル
 リクルートの保険比較サイト
 
 2021/11 〜 2022/05
