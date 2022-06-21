@@ -15,6 +15,10 @@ A collection of my works and participated projects.
 * <a href="https://salonboard.com/">https://salonboard.com/</a>
 * <a href="https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html">https://lp.hpbcosme.com/landing/campaigns/CSM0114_ex/index.html</a>
 
+#### Frontend
+
+* HTML / CSS / JS / Jquery
+
 
 #### 🏁 保険チャンネル
 
@@ -24,12 +28,31 @@ A collection of my works and participated projects.
 
 * <a href="https://hokench.com/">https://hokench.com/</a>
 
+#### Frontend
+
+* Vue.js / Jquery / SCSS
+
+#### Backend
+
+* Ruby on Rails
+
+#### DB
+
+* MySQL
 
 ### H___ Co. ltd.
 
 TBA
 
 2022/06 〜 WIP
+
+#### Frontend
+
+* Next.js / React.js / SCSS / CSS Module
+
+#### Backend
+
+* GO / Firebase
 
 
 ## Personal
