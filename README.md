@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftyomhk2015/tyomhk2015.github.io%2Fhit-counter)](https://hits.seeyoufarm.com)           
+
 # Works
 
 A collection of my works and participated projects.
